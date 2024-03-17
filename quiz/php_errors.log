@@ -1,0 +1,851 @@
+[10-Mar-2024 19:04:50 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\edit.php on line 129
+[10-Mar-2024 19:05:27 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:10:49 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 16
+[10-Mar-2024 19:10:49 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:10:50 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\edit.php on line 52
+[10-Mar-2024 19:10:50 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:10:53 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\edit.php on line 52
+[10-Mar-2024 19:10:53 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:10:55 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:10:55 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:10:58 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\edit.php on line 52
+[10-Mar-2024 19:10:58 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:11:32 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:11:33 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:11:37 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 16
+[10-Mar-2024 19:11:37 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:11:39 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 16
+[10-Mar-2024 19:11:39 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:11:40 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[10-Mar-2024 19:23:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r LEFT JOIN users u ON u.id=r.responder_id  WHERE r.quiz_id=?' at line 1 in F:\Apache24\htdocs\quiz\quiz\queries.php:144
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\queries.php(144): mysqli->prepare()
+#1 F:\Apache24\htdocs\quiz\quiz\responses.php(22): getQuizResponses()
+#2 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\queries.php on line 144
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[10-Mar-2024 19:23:55 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\responses.php on line 46
+[11-Mar-2024 11:18:03 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[11-Mar-2024 11:18:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'id' doesn't have a default value in F:\Apache24\htdocs\quiz\quiz\queries.php:12
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\queries.php(12): mysqli_stmt->execute()
+#1 F:\Apache24\htdocs\quiz\quiz\edit.php(25): addQuiz()
+#2 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\queries.php on line 12
+[11-Mar-2024 11:21:06 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[11-Mar-2024 21:08:53 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[11-Mar-2024 21:12:40 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[11-Mar-2024 21:13:30 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\quiz\editquestion.php on line 80
+[11-Mar-2024 21:17:14 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[12-Mar-2024 07:16:25 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\quiz\editquestion.php on line 80
+[12-Mar-2024 07:27:24 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\quiz\editquestion.php on line 83
+[12-Mar-2024 07:27:40 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\quiz\editquestion.php on line 83
+[12-Mar-2024 07:33:17 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\quiz\editquestion.php on line 80
+[12-Mar-2024 07:34:30 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\responses.php on line 41
+[16-Mar-2024 14:44:31 UTC] PHP Fatal error:  Uncaught TypeError: shuffle(): Argument #1 ($array) must be of type array, null given in F:\Apache24\htdocs\quiz\quiz\view.php:75
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\view.php(75): shuffle()
+#1 F:\Apache24\htdocs\quiz\quiz\view.php(43): createQuestionState()
+#2 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\view.php on line 75
+[16-Mar-2024 15:09:39 UTC] PHP Fatal error:  Uncaught TypeError: shuffle(): Argument #1 ($array) must be of type array, null given in F:\Apache24\htdocs\quiz\quiz\view.php:75
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\view.php(75): shuffle()
+#1 F:\Apache24\htdocs\quiz\quiz\view.php(43): createQuestionState()
+#2 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\view.php on line 75
+[16-Mar-2024 15:28:02 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\view.php on line 53
+[16-Mar-2024 15:28:04 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\view.php on line 53
+[16-Mar-2024 15:28:04 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\view.php on line 53
+[16-Mar-2024 15:28:05 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\view.php on line 53
+[16-Mar-2024 15:28:15 UTC] PHP Warning:  Undefined array key "owner" in F:\Apache24\htdocs\quiz\quiz\view.php on line 53
+[16-Mar-2024 15:39:14 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:16 UTC] PHP Warning:  Undefined array key "version" in F:\Apache24\htdocs\quiz\quiz\view.php on line 63
+[16-Mar-2024 15:39:16 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:17 UTC] PHP Warning:  Undefined array key "version" in F:\Apache24\htdocs\quiz\quiz\view.php on line 63
+[16-Mar-2024 15:39:17 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:17 UTC] PHP Warning:  Undefined array key "version" in F:\Apache24\htdocs\quiz\quiz\view.php on line 63
+[16-Mar-2024 15:39:17 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:17 UTC] PHP Warning:  Undefined array key "version" in F:\Apache24\htdocs\quiz\quiz\view.php on line 63
+[16-Mar-2024 15:39:17 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:45 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:46 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:47 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:47 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:47 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:39:48 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[16-Mar-2024 15:41:51 UTC] PHP Warning:  Undefined array key "questions" in F:\Apache24\htdocs\quiz\quiz\view.php on line 130
+[16-Mar-2024 15:41:51 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\view.php on line 130
+[16-Mar-2024 15:41:52 UTC] PHP Warning:  Undefined array key "questions" in F:\Apache24\htdocs\quiz\quiz\view.php on line 130
+[16-Mar-2024 15:41:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\view.php on line 130
+[17-Mar-2024 13:33:37 UTC] PHP Warning:  Undefined variable $responseID in F:\Apache24\htdocs\quiz\quiz\response.php on line 14
+[17-Mar-2024 13:34:16 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\response.php on line 25
+[17-Mar-2024 13:34:16 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\response.php on line 37
+[17-Mar-2024 13:34:16 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\response.php on line 39
+[17-Mar-2024 13:34:16 UTC] PHP Warning:  Undefined array key "time" in F:\Apache24\htdocs\quiz\quiz\response.php on line 40
+[17-Mar-2024 13:34:16 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\response.php on line 41
+[17-Mar-2024 13:34:16 UTC] PHP Warning:  Undefined variable $res in F:\Apache24\htdocs\quiz\quiz\response.php on line 41
+[17-Mar-2024 13:34:16 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\response.php on line 41
+[17-Mar-2024 13:35:14 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\response.php on line 25
+[17-Mar-2024 13:35:14 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\response.php on line 37
+[17-Mar-2024 13:35:14 UTC] PHP Warning:  Undefined array key "name" in F:\Apache24\htdocs\quiz\quiz\response.php on line 39
+[17-Mar-2024 13:35:14 UTC] PHP Warning:  Undefined array key "time" in F:\Apache24\htdocs\quiz\quiz\response.php on line 40
+[17-Mar-2024 13:35:14 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\response.php on line 41
+[17-Mar-2024 13:35:14 UTC] PHP Warning:  Undefined variable $res in F:\Apache24\htdocs\quiz\quiz\response.php on line 41
+[17-Mar-2024 13:35:14 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\response.php on line 41
+[17-Mar-2024 13:37:10 UTC] PHP Warning:  Undefined variable $res in F:\Apache24\htdocs\quiz\quiz\response.php on line 42
+[17-Mar-2024 13:37:10 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\response.php on line 42
+[17-Mar-2024 13:38:30 UTC] PHP Warning:  Undefined variable $response in F:\Apache24\htdocs\quiz\quiz\responses.php on line 53
+[17-Mar-2024 13:38:30 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\responses.php on line 53
+[17-Mar-2024 13:38:33 UTC] PHP Warning:  Undefined variable $response in F:\Apache24\htdocs\quiz\quiz\responses.php on line 53
+[17-Mar-2024 13:38:33 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\responses.php on line 53
+[17-Mar-2024 13:42:48 UTC] PHP Warning:  Undefined array key "json" in F:\Apache24\htdocs\quiz\quiz\response.php on line 17
+[17-Mar-2024 13:42:48 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\response.php on line 55
+[17-Mar-2024 13:42:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function renderQuestionForResponder() in F:\Apache24\htdocs\quiz\quiz\response.php:58
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\response.php on line 58
+[17-Mar-2024 13:42:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function renderQuestionForResponder() in F:\Apache24\htdocs\quiz\quiz\response.php:58
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\response.php on line 58
+[17-Mar-2024 13:43:35 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 13:43:35 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 13:43:36 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 13:43:36 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 13:43:36 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 13:43:36 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 13:46:55 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 13:46:55 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 13:57:10 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 166
+[17-Mar-2024 13:57:10 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 166
+[17-Mar-2024 13:57:10 UTC] PHP Warning:  Trying to access array offset on false in F:\Apache24\htdocs\quiz\quiz\respond.php on line 75
+[17-Mar-2024 13:57:10 UTC] PHP Warning:  Trying to access array offset on false in F:\Apache24\htdocs\quiz\quiz\respond.php on line 76
+[17-Mar-2024 14:03:45 UTC] PHP Fatal error:  Cannot redeclare validateResponse() (previously declared in F:\Apache24\htdocs\quiz\quiz\respond.php:106) in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 87
+[17-Mar-2024 14:04:05 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 154
+[17-Mar-2024 14:04:05 UTC] PHP Warning:  Trying to access array offset on false in F:\Apache24\htdocs\quiz\quiz\respond.php on line 64
+[17-Mar-2024 14:04:05 UTC] PHP Warning:  Trying to access array offset on false in F:\Apache24\htdocs\quiz\quiz\respond.php on line 65
+[17-Mar-2024 14:04:54 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 154
+[17-Mar-2024 14:04:54 UTC] PHP Warning:  Trying to access array offset on false in F:\Apache24\htdocs\quiz\quiz\respond.php on line 64
+[17-Mar-2024 14:04:54 UTC] PHP Warning:  Trying to access array offset on false in F:\Apache24\htdocs\quiz\quiz\respond.php on line 65
+[17-Mar-2024 14:04:54 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 154
+[17-Mar-2024 14:04:54 UTC] PHP Warning:  Trying to access array offset on false in F:\Apache24\htdocs\quiz\quiz\respond.php on line 64
+[17-Mar-2024 14:04:54 UTC] PHP Warning:  Trying to access array offset on false in F:\Apache24\htdocs\quiz\quiz\respond.php on line 65
+[17-Mar-2024 14:14:13 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in F:\Apache24\htdocs\quiz\quiz\respond.php on line 67
+[17-Mar-2024 14:25:15 UTC] PHP Parse error:  syntax error, unexpected token ")", expecting variable or "{" or "$" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 63
+[17-Mar-2024 14:25:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 168
+[17-Mar-2024 14:25:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 168
+[17-Mar-2024 14:27:05 UTC] PHP Warning:  Undefined variable $url in F:\Apache24\htdocs\quiz\quiz\respond.php on line 16
+[17-Mar-2024 14:27:05 UTC] PHP Warning:  Undefined array key "" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 16
+[17-Mar-2024 14:27:05 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 169
+[17-Mar-2024 14:27:05 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 169
+[17-Mar-2024 14:27:26 UTC] PHP Warning:  Undefined variable $url in F:\Apache24\htdocs\quiz\quiz\respond.php on line 16
+[17-Mar-2024 14:27:26 UTC] PHP Warning:  Undefined array key "" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 16
+[17-Mar-2024 14:27:26 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 169
+[17-Mar-2024 14:27:26 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\respond.php on line 169
+[17-Mar-2024 14:27:38 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 171
+[17-Mar-2024 14:27:38 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 171
+[17-Mar-2024 14:27:38 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 171
+[17-Mar-2024 14:27:38 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 171
+[17-Mar-2024 14:28:52 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 177
+[17-Mar-2024 14:28:52 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 177
+[17-Mar-2024 14:28:52 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 177
+[17-Mar-2024 14:28:52 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 177
+[17-Mar-2024 14:29:04 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 177
+[17-Mar-2024 14:29:04 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 177
+[17-Mar-2024 14:29:04 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 177
+[17-Mar-2024 14:29:04 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 177
+[17-Mar-2024 14:29:52 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in F:\Apache24\htdocs\quiz\quiz\respond.php:140
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(69): validateResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 140
+[17-Mar-2024 14:31:29 UTC] PHP Warning:  Undefined variable $a in F:\Apache24\htdocs\quiz\quiz\respond.php on line 70
+[17-Mar-2024 14:31:29 UTC] PHP Warning:  Undefined variable $a in F:\Apache24\htdocs\quiz\quiz\respond.php on line 70
+[17-Mar-2024 14:33:48 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 81
+[17-Mar-2024 14:33:48 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:34:20 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 134
+[17-Mar-2024 14:34:20 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 81
+[17-Mar-2024 14:34:20 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:34:20 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 134
+[17-Mar-2024 14:34:42 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 134
+[17-Mar-2024 14:34:42 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 81
+[17-Mar-2024 14:34:42 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:34:42 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 134
+[17-Mar-2024 14:35:18 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 134
+[17-Mar-2024 14:35:18 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 81
+[17-Mar-2024 14:35:18 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:35:18 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 134
+[17-Mar-2024 14:40:18 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 81
+[17-Mar-2024 14:40:18 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:40:18 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:40:18 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:42:35 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 81
+[17-Mar-2024 14:42:35 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:42:35 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:42:35 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:43:32 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 81
+[17-Mar-2024 14:43:32 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:43:32 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:43:32 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 82
+[17-Mar-2024 14:43:55 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 86
+[17-Mar-2024 14:43:55 UTC] PHP Warning:  Undefined array key "max_score" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 86
+[17-Mar-2024 14:46:09 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + array in F:\Apache24\htdocs\quiz\quiz\respond.php:86
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 86
+[17-Mar-2024 14:46:20 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + array in F:\Apache24\htdocs\quiz\quiz\respond.php:86
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 86
+[17-Mar-2024 14:47:47 UTC] PHP Parse error:  Unclosed '{' on line 141 does not match ')' in F:\Apache24\htdocs\quiz\quiz\respond.php on line 148
+[17-Mar-2024 14:48:21 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + array in F:\Apache24\htdocs\quiz\quiz\respond.php:86
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 86
+[17-Mar-2024 14:48:34 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + array in F:\Apache24\htdocs\quiz\quiz\respond.php:86
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 86
+[17-Mar-2024 14:57:22 UTC] PHP Warning:  Undefined array key 0 in F:\Apache24\htdocs\quiz\quiz\respond.php on line 97
+[17-Mar-2024 14:57:22 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 14:57:22 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 155
+[17-Mar-2024 14:57:22 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 160
+[17-Mar-2024 14:57:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 160
+[17-Mar-2024 14:57:39 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 14:57:39 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 164
+[17-Mar-2024 14:57:39 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 167
+[17-Mar-2024 14:57:39 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:01:13 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:01:13 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 167
+[17-Mar-2024 15:01:13 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:01:13 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 167
+[17-Mar-2024 15:01:13 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:02:28 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:02:28 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:02:28 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:05 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:06:05 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:05 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:07 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 149
+[17-Mar-2024 15:06:07 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:06:07 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:07:10 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 152
+[17-Mar-2024 15:07:10 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in F:\Apache24\htdocs\quiz\quiz\respond.php:152
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(73): validateResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 152
+[17-Mar-2024 15:08:14 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 152
+[17-Mar-2024 15:08:14 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in F:\Apache24\htdocs\quiz\quiz\respond.php:152
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(73): validateResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 152
+[17-Mar-2024 15:08:15 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 152
+[17-Mar-2024 15:08:15 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in F:\Apache24\htdocs\quiz\quiz\respond.php:152
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(73): validateResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 152
+[17-Mar-2024 15:08:15 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 152
+[17-Mar-2024 15:08:15 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in F:\Apache24\htdocs\quiz\quiz\respond.php:152
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(73): validateResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 152
+[17-Mar-2024 15:08:35 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 153
+[17-Mar-2024 15:08:35 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in F:\Apache24\htdocs\quiz\quiz\respond.php:153
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(73): validateResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 153
+[17-Mar-2024 15:08:51 UTC] PHP Warning:  Trying to access array offset on int in F:\Apache24\htdocs\quiz\quiz\respond.php on line 153
+[17-Mar-2024 15:08:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in F:\Apache24\htdocs\quiz\quiz\respond.php:153
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(73): validateResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 153
+[17-Mar-2024 15:08:59 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in F:\Apache24\htdocs\quiz\quiz\respond.php:153
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(73): validateResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 153
+[17-Mar-2024 15:09:30 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:09:30 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 171
+[17-Mar-2024 15:12:31 UTC] PHP Warning:  Undefined variable $a in F:\Apache24\htdocs\quiz\quiz\respond.php on line 96
+[17-Mar-2024 15:12:31 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 105
+[17-Mar-2024 15:12:31 UTC] PHP Warning:  Undefined variable $a in F:\Apache24\htdocs\quiz\quiz\respond.php on line 96
+[17-Mar-2024 15:12:31 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 105
+[17-Mar-2024 15:13:07 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 15:13:21 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[17-Mar-2024 15:13:33 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 15:13:33 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\question\questionEditor.php on line 37
+[17-Mar-2024 17:34:02 UTC] PHP Fatal error:  Uncaught Error: Class "Question" not found in F:\Apache24\htdocs\quiz\question\MultipleChoice.php:3
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\edit.php(45): require_once()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 3
+[17-Mar-2024 18:42:01 UTC] PHP Fatal error:  Uncaught Error: Class "Question" not found in F:\Apache24\htdocs\quiz\question\MultipleChoice.php:3
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\edit.php(45): require_once()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 3
+[17-Mar-2024 19:27:51 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[17-Mar-2024 19:27:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function createQuestions() in F:\Apache24\htdocs\quiz\quiz\edit.php:60
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 60
+[17-Mar-2024 19:28:27 UTC] PHP Warning:  require(./MultipleChoice.php): Failed to open stream: No such file or directory in F:\Apache24\htdocs\quiz\question\base.php on line 6
+[17-Mar-2024 19:28:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './MultipleChoice.php' (include_path='.;F:\php\includes') in F:\Apache24\htdocs\quiz\question\base.php:6
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\edit.php(11): require_once()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\base.php on line 6
+[17-Mar-2024 19:28:48 UTC] PHP Warning:  require(./MultipleChoice.php): Failed to open stream: No such file or directory in F:\Apache24\htdocs\quiz\question\base.php on line 6
+[17-Mar-2024 19:28:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './MultipleChoice.php' (include_path='.;F:\php\includes') in F:\Apache24\htdocs\quiz\question\base.php:6
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\edit.php(11): require_once()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\base.php on line 6
+[17-Mar-2024 19:28:59 UTC] PHP Warning:  Undefined variable $questionTypes in F:\Apache24\htdocs\quiz\quiz\edit.php on line 136
+[17-Mar-2024 19:28:59 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\edit.php on line 136
+[17-Mar-2024 19:29:24 UTC] PHP Warning:  Undefined variable $questionTypes in F:\Apache24\htdocs\quiz\quiz\edit.php on line 138
+[17-Mar-2024 19:29:24 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\edit.php on line 138
+[17-Mar-2024 19:29:46 UTC] PHP Warning:  Undefined variable $questionTypes in F:\Apache24\htdocs\quiz\quiz\edit.php on line 138
+[17-Mar-2024 19:29:46 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\edit.php on line 138
+[17-Mar-2024 19:29:49 UTC] PHP Warning:  Undefined variable $questionTypes in F:\Apache24\htdocs\quiz\quiz\edit.php on line 138
+[17-Mar-2024 19:29:49 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\edit.php on line 138
+[17-Mar-2024 19:30:41 UTC] PHP Warning:  Undefined variable $QUESTION_TYPES in F:\Apache24\htdocs\quiz\quiz\edit.php on line 138
+[17-Mar-2024 19:30:41 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\quiz\edit.php on line 138
+[17-Mar-2024 19:30:59 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:30:59 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:30:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:161
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 161
+[17-Mar-2024 19:31:37 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:37 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:31:38 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:38 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:31:38 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:38 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:39 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:31:40 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:31:40 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:31:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:32:32 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:32:32 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:32:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:33:44 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[17-Mar-2024 19:33:54 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:33:54 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:33:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:34:46 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:34:46 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:34:51 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 85
+[17-Mar-2024 19:35:43 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:35:43 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:35:43 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:35:43 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:35:47 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 83
+[17-Mar-2024 19:35:47 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 83
+[17-Mar-2024 19:36:53 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:36:53 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:36:53 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:36:53 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:36:53 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:36:53 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:36:57 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 83
+[17-Mar-2024 19:36:57 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 83
+[17-Mar-2024 19:36:57 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 83
+[17-Mar-2024 19:38:47 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:38:47 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:38:47 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:38:47 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:38:47 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:38:47 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:38:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:38:50 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 84
+[17-Mar-2024 19:38:50 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 84
+[17-Mar-2024 19:38:50 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 84
+[17-Mar-2024 19:39:43 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:39:43 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:39:43 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:39:43 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:39:43 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 19:39:43 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 146
+[17-Mar-2024 19:39:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 19:39:46 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 84
+[17-Mar-2024 19:39:46 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 84
+[17-Mar-2024 19:39:46 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\addquestion.php on line 84
+[17-Mar-2024 19:41:50 UTC] PHP Fatal error:  Uncaught Error: Class "Question" not found in F:\Apache24\htdocs\quiz\question\MultipleChoice.php:3
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\view.php(18): require_once()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 3
+[17-Mar-2024 19:41:58 UTC] PHP Fatal error:  Uncaught Error: Class "Question" not found in F:\Apache24\htdocs\quiz\question\MultipleChoice.php:3
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\view.php(18): require_once()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 3
+[17-Mar-2024 19:42:51 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\quiz\view.php on line 82
+[17-Mar-2024 19:42:51 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\quiz\view.php on line 82
+[17-Mar-2024 19:42:51 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\quiz\view.php on line 82
+[17-Mar-2024 19:42:51 UTC] PHP Warning:  require_once(../question/questionEditor.php): Failed to open stream: No such file or directory in F:\Apache24\htdocs\quiz\quiz\view.php on line 97
+[17-Mar-2024 19:42:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../question/questionEditor.php' (include_path='.;F:\php\includes') in F:\Apache24\htdocs\quiz\quiz\view.php:97
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\view.php on line 97
+[17-Mar-2024 19:43:48 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\quiz\view.php on line 82
+[17-Mar-2024 19:43:48 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\quiz\view.php on line 82
+[17-Mar-2024 19:43:48 UTC] PHP Warning:  Undefined array key "questionType" in F:\Apache24\htdocs\quiz\quiz\view.php on line 82
+[17-Mar-2024 19:43:48 UTC] PHP Warning:  require_once(../question/questionEditor.php): Failed to open stream: No such file or directory in F:\Apache24\htdocs\quiz\quiz\view.php on line 97
+[17-Mar-2024 19:43:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../question/questionEditor.php' (include_path='.;F:\php\includes') in F:\Apache24\htdocs\quiz\quiz\view.php:97
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\view.php on line 97
+[17-Mar-2024 19:44:20 UTC] PHP Warning:  require_once(../question/questionEditor.php): Failed to open stream: No such file or directory in F:\Apache24\htdocs\quiz\quiz\view.php on line 97
+[17-Mar-2024 19:44:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../question/questionEditor.php' (include_path='.;F:\php\includes') in F:\Apache24\htdocs\quiz\quiz\view.php:97
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\view.php on line 97
+[17-Mar-2024 19:48:16 UTC] PHP Fatal error:  Uncaught Error: Class "Question" not found in F:\Apache24\htdocs\quiz\question\MultipleChoice.php:4
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(54): require()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 4
+[17-Mar-2024 19:49:28 UTC] PHP Fatal error:  Uncaught Error: Class "Question" not found in F:\Apache24\htdocs\quiz\question\MultipleChoice.php:4
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\editquestion.php(54): require_once()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 4
+[17-Mar-2024 19:49:54 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\quiz\editquestion.php on line 79
+[17-Mar-2024 19:49:54 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\quiz\editquestion.php on line 90
+[17-Mar-2024 19:49:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function load() on null in F:\Apache24\htdocs\quiz\quiz\editquestion.php:90
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\editquestion.php(58): parseQuestions()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\editquestion.php on line 90
+[17-Mar-2024 19:53:05 UTC] PHP Warning:  Undefined array key "variables" in F:\Apache24\htdocs\quiz\question\TextQuestion.php on line 20
+[17-Mar-2024 20:00:37 UTC] PHP Warning:  Undefined array key "attachmen" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:00:38 UTC] PHP Warning:  Undefined array key "attachmen" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:00:39 UTC] PHP Warning:  Undefined array key "attachmen" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:00:39 UTC] PHP Warning:  Undefined array key "attachmen" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:00:40 UTC] PHP Warning:  Undefined array key "attachmen" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:01:10 UTC] PHP Fatal error:  Uncaught Error: Class "Question" not found in F:\Apache24\htdocs\quiz\question\MultipleChoice.php:4
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(54): require()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 4
+[17-Mar-2024 20:01:14 UTC] PHP Fatal error:  Uncaught Error: Class "Question" not found in F:\Apache24\htdocs\quiz\question\MultipleChoice.php:4
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(54): require()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 4
+[17-Mar-2024 20:01:56 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 152
+[17-Mar-2024 20:01:56 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 163
+[17-Mar-2024 20:01:56 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 152
+[17-Mar-2024 20:01:56 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 163
+[17-Mar-2024 20:01:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 20:01:58 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 152
+[17-Mar-2024 20:01:58 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 163
+[17-Mar-2024 20:01:58 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 152
+[17-Mar-2024 20:01:58 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 163
+[17-Mar-2024 20:01:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 20:03:00 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 152
+[17-Mar-2024 20:03:00 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 163
+[17-Mar-2024 20:03:00 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 152
+[17-Mar-2024 20:03:00 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 163
+[17-Mar-2024 20:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 20:03:02 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 152
+[17-Mar-2024 20:03:02 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 163
+[17-Mar-2024 20:03:02 UTC] PHP Warning:  Undefined array key "type" in F:\Apache24\htdocs\quiz\question\base.php on line 152
+[17-Mar-2024 20:03:02 UTC] PHP Warning:  Undefined variable $question in F:\Apache24\htdocs\quiz\question\base.php on line 163
+[17-Mar-2024 20:03:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function renderEdit() on null in F:\Apache24\htdocs\quiz\quiz\edit.php:162
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\edit.php on line 162
+[17-Mar-2024 20:03:30 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[17-Mar-2024 20:03:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function parseResponseDataMultipleChoice() in F:\Apache24\htdocs\quiz\quiz\respond.php:72
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 72
+[17-Mar-2024 20:06:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function renderResponseMultipleChoice() in F:\Apache24\htdocs\quiz\quiz\respond.php:108
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(96): renderResponse()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 108
+[17-Mar-2024 20:07:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function createQuestions() in F:\Apache24\htdocs\quiz\quiz\respond.php:34
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 34
+[17-Mar-2024 20:08:07 UTC] PHP Fatal error:  Cannot redeclare renderImageBlockEditor() (previously declared in F:\Apache24\htdocs\quiz\question\base.php:113) in F:\Apache24\htdocs\quiz\question\base.php on line 138
+[17-Mar-2024 20:09:00 UTC] PHP Fatal error:  Cannot redeclare renderImageBlockEditor() (previously declared in F:\Apache24\htdocs\quiz\question\base.php:113) in F:\Apache24\htdocs\quiz\question\base.php on line 138
+[17-Mar-2024 20:09:35 UTC] PHP Fatal error:  Cannot redeclare renderImageBlockEditor() (previously declared in F:\Apache24\htdocs\quiz\question\base.php:110) in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 20:10:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function createQuestions() in F:\Apache24\htdocs\quiz\quiz\respond.php:27
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 27
+[17-Mar-2024 20:10:40 UTC] PHP Fatal error:  Cannot redeclare renderImageBlockEditor() (previously declared in F:\Apache24\htdocs\quiz\question\base.php:110) in F:\Apache24\htdocs\quiz\question\base.php on line 135
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Undefined variable $result in F:\Apache24\htdocs\quiz\quiz\respond.php on line 77
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Undefined variable $result in F:\Apache24\htdocs\quiz\quiz\respond.php on line 78
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 78
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Undefined variable $result in F:\Apache24\htdocs\quiz\quiz\respond.php on line 79
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 79
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Undefined variable $result in F:\Apache24\htdocs\quiz\quiz\respond.php on line 77
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Undefined variable $result in F:\Apache24\htdocs\quiz\quiz\respond.php on line 78
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 78
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Undefined variable $result in F:\Apache24\htdocs\quiz\quiz\respond.php on line 79
+[17-Mar-2024 20:11:06 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 79
+[17-Mar-2024 20:17:33 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 140
+[17-Mar-2024 20:17:33 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 140
+[17-Mar-2024 20:17:33 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 140
+[17-Mar-2024 20:17:33 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 140
+[17-Mar-2024 20:21:48 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 102
+[17-Mar-2024 20:21:48 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type MultipleChoice as array in F:\Apache24\htdocs\quiz\quiz\respond.php:92
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(102): getQuestionByID()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 92
+[17-Mar-2024 20:22:13 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type MultipleChoice as array in F:\Apache24\htdocs\quiz\quiz\respond.php:92
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(102): getQuestionByID()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 92
+[17-Mar-2024 20:22:38 UTC] PHP Fatal error:  Uncaught Error: Cannot access protected property MultipleChoice::$id in F:\Apache24\htdocs\quiz\quiz\respond.php:92
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(102): getQuestionByID()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 92
+[17-Mar-2024 20:24:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'quiz_id' cannot be null in F:\Apache24\htdocs\quiz\quiz\respond.php:127
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(127): mysqli_stmt->execute()
+#1 F:\Apache24\htdocs\quiz\quiz\respond.php(110): saveResponse()
+#2 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 127
+[17-Mar-2024 20:25:23 UTC] PHP Warning:  Undefined array key "id" in F:\Apache24\htdocs\quiz\quiz\respond.php on line 23
+[17-Mar-2024 20:25:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'quiz_id' cannot be null in F:\Apache24\htdocs\quiz\quiz\respond.php:128
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\respond.php(128): mysqli_stmt->execute()
+#1 F:\Apache24\htdocs\quiz\quiz\respond.php(111): saveResponse()
+#2 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 128
+[17-Mar-2024 20:27:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getQuizByURL() in F:\Apache24\htdocs\quiz\quiz\respond.php:17
+Stack trace:
+#0 {main}
+  thrown in F:\Apache24\htdocs\quiz\quiz\respond.php on line 17
+[17-Mar-2024 20:33:22 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in F:\Apache24\htdocs\quiz\quiz\respond.php on line 112
+[17-Mar-2024 20:34:46 UTC] PHP Warning:  Undefined variable $responseData in F:\Apache24\htdocs\quiz\quiz\respond.php on line 116
+[17-Mar-2024 20:34:46 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 129
+[17-Mar-2024 20:34:46 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 135
+[17-Mar-2024 20:34:46 UTC] PHP Warning:  Trying to access array offset on null in F:\Apache24\htdocs\quiz\quiz\respond.php on line 135
+[17-Mar-2024 20:39:20 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:39:36 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:39:37 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:39:51 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:39:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:40:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:40:48 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:41:00 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:41:48 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:41:50 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:42:06 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:43:00 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:43:10 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:43:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:43:54 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:44:00 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 221
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:44:50 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:47:05 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in F:\Apache24\htdocs\quiz\question\base.php:160
+Stack trace:
+#0 F:\Apache24\htdocs\quiz\quiz\editquestion.php(62): createQuestions()
+#1 {main}
+  thrown in F:\Apache24\htdocs\quiz\question\base.php on line 160
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:48:39 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:48:58 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:49:32 UTC] PHP Warning:  Undefined variable $quizID in F:\Apache24\htdocs\quiz\quiz\empty-form.html on line 7
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:49:48 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:52:13 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:53:02 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "error" in F:\Apache24\htdocs\quiz\question\base.php on line 37
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "errorMessage" in F:\Apache24\htdocs\quiz\question\base.php on line 38
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "isAnswered" in F:\Apache24\htdocs\quiz\question\base.php on line 39
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "required" in F:\Apache24\htdocs\quiz\question\base.php on line 40
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "score" in F:\Apache24\htdocs\quiz\question\base.php on line 41
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "maxScore" in F:\Apache24\htdocs\quiz\question\base.php on line 42
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "section" in F:\Apache24\htdocs\quiz\question\base.php on line 43
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "inRandomPool" in F:\Apache24\htdocs\quiz\question\base.php on line 44
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "hasAttachment" in F:\Apache24\htdocs\quiz\question\base.php on line 45
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "attachment" in F:\Apache24\htdocs\quiz\question\base.php on line 46
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 26
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "selected" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 27
+[17-Mar-2024 20:53:42 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 28
+[17-Mar-2024 20:55:39 UTC] PHP Warning:  Undefined variable $type in F:\Apache24\htdocs\quiz\question\base.php on line 53
+[17-Mar-2024 20:55:39 UTC] PHP Warning:  Undefined variable $questionText in F:\Apache24\htdocs\quiz\question\base.php on line 53
+[17-Mar-2024 20:55:39 UTC] PHP Warning:  Undefined variable $option-1-text in F:\Apache24\htdocs\quiz\question\base.php on line 53
+[17-Mar-2024 20:55:39 UTC] PHP Warning:  Undefined variable $option-1-points in F:\Apache24\htdocs\quiz\question\base.php on line 53
+[17-Mar-2024 20:55:39 UTC] PHP Warning:  Undefined variable $option-2-text in F:\Apache24\htdocs\quiz\question\base.php on line 53
+[17-Mar-2024 20:55:39 UTC] PHP Warning:  Undefined variable $option-2-points in F:\Apache24\htdocs\quiz\question\base.php on line 53
+[17-Mar-2024 20:55:39 UTC] PHP Warning:  Undefined variable $option-3-text in F:\Apache24\htdocs\quiz\question\base.php on line 53
+[17-Mar-2024 20:55:39 UTC] PHP Warning:  Undefined variable $option-3-points in F:\Apache24\htdocs\quiz\question\base.php on line 53
+[17-Mar-2024 20:56:48 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 34
+[17-Mar-2024 20:56:48 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 35
+[17-Mar-2024 20:57:09 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 34
+[17-Mar-2024 20:57:09 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 35
+[17-Mar-2024 20:58:17 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 34
+[17-Mar-2024 20:58:17 UTC] PHP Warning:  Undefined array key "allowMultipleSelections" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 35
+[17-Mar-2024 20:59:50 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 36
+[17-Mar-2024 21:01:13 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 38
+[17-Mar-2024 21:01:41 UTC] PHP Warning:  Undefined array key "options" in F:\Apache24\htdocs\quiz\question\MultipleChoice.php on line 38

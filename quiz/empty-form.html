@@ -1,0 +1,29 @@
+
+
+<h4>Luo uusi kysely</h4>
+
+
+<form method="POST" id="quiz-form">
+    <input type="number" name="quizID" hidden value="<?= $quizID ?>">
+    <div>
+        <label for="title">Otsikko:</label>
+        <input name="title" id="title">
+    </div>
+    <div>
+        <label for="description">Kuvaus:</label>
+        <input name="description" id="description">
+    </div>
+
+    <div>
+        <label for="accepting_answers">Avoinna:</label>
+        <input type="checkbox" name="accepting_answers" id="accepting_answers" >
+    </div>
+
+    <div>
+        <label for="auth_only">Vain kirjautuneille:</label>
+        <input type="checkbox" name="auth_only" id="auth_only">
+    </div>
+
+    <button>Save</button>
+
+</form>

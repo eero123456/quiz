@@ -1,0 +1,216 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	max-width: 960px;
+	margin: 0 0.75em;
+}
+
+@media (min-width: 960px) {
+	body {
+		margin: 0 auto;
+	}
+}
+
+main {
+	margin-top: 10em;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: xx-large;
+	margin-bottom: 0.5em;
+}
+
+footer {
+	margin-top: auto;
+}
+
+/* NAVIGATION  */
+
+/* Yleiset tyylit desktop/mobile */
+#nav-menu {
+	background: #333333;
+	display: none;
+}
+
+/* Kaikkien valikon laatikoiden yleinen tyyli on sama */
+#nav-menu a {
+	display: block;
+	color: #efefef;
+	text-align: center;
+	padding: 1em 1.5em;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#nav-menu a:hover {
+	background: #696969;
+}
+
+.nav-left {
+	margin-left: auto;
+}
+
+@media (min-width: 768px) {
+	#nav-menu {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+	/* hampurilaismenun piilotus */
+	.menu-toggle {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	/* Näytetään valikko jos valikon checkbox on päällä */
+	#menu-btn:checked + #nav-menu {
+		display: block;
+	}
+}
+
+/* hampururilaismenun painikkeen animointia ( w3c esimerkistä kopioitu) 
+*/
+
+label.menu-toggle {
+	cursor: pointer;
+}
+
+label.menu-toggle :is(.bar1, .bar2, .bar3) {
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+label.menu-toggle:has(+ #menu-btn:checked) .bar1 {
+	transform: translate(0, 11px) rotate(-45deg);
+}
+
+label.menu-toggle:has(+ #menu-btn:checked) .bar2 {
+	opacity: 0;
+}
+
+label.menu-toggle:has(+ #menu-btn:checked) .bar3 {
+	transform: translate(0, -11px) rotate(45deg);
+}
+
+/* PRODUCT */
+
+.product-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+
+@media (min-width: 1200px) {
+	.product-container {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media (max-width: 1024px) {
+	.product-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.product-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.product {
+	display: inline-block;
+	min-width: 10em;
+	min-height: 15em;
+	background: aliceblue;
+	border: 1px solid;
+}
+
+.user-form {
+	max-width: 40em;
+	margin: 0 auto;
+}
+.user-form fieldset {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+
+.user-form label,
+.user-form input {
+	margin: 0 auto;
+}
+
+.user-form input {
+	width: 20em;
+	margin-bottom: 0.5em;
+}
+
+.user-form fieldset legend {
+	font-size: x-large;
+	margin: 0 auto;
+}
+
+.user-form input {
+	margin-bottom: 1em;
+}
+
+.form-message {
+	text-align: center;
+}
+
+/**/
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th,
+td {
+	border: 1px solid;
+}
+
+#quiz-form {	
+	width: 100%;
+}
+#quiz-form div {
+	display: flex;
+	margin-bottom:1em;
+}
+
+#quiz-form div label {
+	width:10em;
+}
+
+#quiz-form div input {
+	flex:1;
+	min-width: 20em;
+}
+
+.question {
+	padding:1em;
+	border:1px solid;
+	margin-bottom:1em;	
+}
+
+img {
+	max-width: 50%;
+	display:block;
+}
+
+.error {
+	color:red;
+	font-weight: 600;
+	text-align: center;
+}
